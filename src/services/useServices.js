@@ -11,4 +11,8 @@ export const welcome = async () => {
     } catch (err) {
         throw (err);
     }
+};
+
+export const registerUser  = async(req_data)=>{
+    return true;
 }
